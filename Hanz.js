@@ -331,6 +331,20 @@ Hanz.sendMessage(from, buttonMessages, buttonsMessage, {
 quoted: ftrol
 })
 }         
+//BUTTON DOCUMENT
+const Sendbutdocument = async(id, text1, desc1, file1, doc1, but = [], options = {}) => {
+media = file1
+kma = doc1
+mhan = await Hanz.prepareMessage(from, media, document, kma)
+const buttonMessages = {
+documentMessage: mhan.message.documentMessage,
+contentText: text1,
+footerText: desc1,
+buttons: but,
+headerType: "DOCUMENT"
+}
+Hanz.sendMessage(id, buttonMessages, MessageType.buttonsMessage, options)
+}
 //BUTTON FOTO
 const sendButImage = async (from, context, fortext, img, but, mek) => {
 jadinya = await Hanz.prepareMessage(from, img, image)
