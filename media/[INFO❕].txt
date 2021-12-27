@@ -1,0 +1,59 @@
+ASALAMMUALAIKUM ADICK ADICK
+
+KALO MAU RECORD IZIN GW DULU MEK
+
+
+
+
+COMMAND TERMUX
+
+$pkg update && pkg upgrade
+$pkg install nodejs
+$pkg install bash
+$pkg install ffmpeg
+$pkg install imagemagick
+$termux-setup-storage
+$cd /sdcard
+$cp -r nama file /$HOME
+$cd $cd nama file
+$bash install.sh
+$npm i @adiwajshing/baileys@3.5.3 && npm start
+
+SCAN DONE🎗
+
+NOTE : "$" jangan di ikutin
+
+
+[🎗🎗🎗🎗🎗🎗]
+SINGKAT NYA
+
+COOMMAND KALAU KAMU UDH PERNAH PASANG BOT
+$termux-setup-storage
+$cd /sdcard
+$cp -r namafolder /$HOME
+$cd
+$cd namafolder
+$bash install.sh
+$npm i @adiwajshing/baileys@3.5.3 && npm start
+
+🎗DONE
+
+NOTE : "$" jangan di ikutin
+
+
+CARA RUN BOT DI TERMUX
+
+$pkg install -g pm2
+$cd /sdcard
+$cd namafolder
+$pm2 start main.js
+$npm i @adiwajshing/baileys@3.5.3
+$pm2 save
+$pm2 monit
+
+NOTE: JIKA TIDAK MUNCUL KODE QR NYA KETIK mc LALU HAPUS Hanz.json
+LALU KEMBALI PENCET ALT+8 JIKA SUDAH KEMBALI ULANG INSTALL COMMAND DI
+ATAS TADI
+
+
+SALIN DAN TEMPEL DI TERMUX👆
