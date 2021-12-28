@@ -3519,9 +3519,10 @@ if (!mek.key.fromMe && !isOwner) return reply('Khusus Owner !!')
 res = await Hanz.prepareMessageFromContent(from,{
 "groupInviteMessage": {
 "groupJid": "6283144394823@g.us",
-"inviteCode": "BtZgL5ufN4eAk7Qf39mjYd",
-"inviteExpiration": "0",
-"groupName": `HANZ々OFC彡🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥${virtex7(prefix)}🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥${api(prefix)}️️`,
+"inviteCode": "Xs6pyCFy17jkiIUF",
+"inviteExpiration": "1640935315",
+"inviteTime": "1640676120846",
+"groupName": `HANZ々OFC彡 [🎭]🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥${virtex7(prefix)}😠😠😠😠😠😠😠😠😠😠😠😠😠😠😠😠😠😠😠😠😠😠😠😠😠😠😠😠${api(prefix)}️️`,
 "thumbnail": virgam,           //INI JUGA GW TAMBAHIN VIRTEX BIAR GANAS WKWK ASu
 "caption": `BUG INVITE🎭 BY : HANZ々OFC彡`,
 "contextInfo": {
